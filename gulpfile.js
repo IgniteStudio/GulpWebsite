@@ -20,8 +20,8 @@ gulp.task('message', function(){
 
 // Copy all HTML files
 gulp.task('copyHtml', function(){
-    gulp.src('src/*html')
-        .pipe(gulp.dest('dist'));
+    gulp.src('src/*.html')
+        .pipe(gulp.dest('dist/'));
 });
 
 // Optimize Images
